@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cool box</title>
+	<style>
+	  body {
+	    margin: auto;
+        padding: 100px;
+        font-size: 1.5em;
+        font-family: Arial;
+        color: white;
+      }
+
+       div {
+        width: 200px;
+        padding: 100px 50px;
+        margin: auto;
+        text-align: center;
+        text-shadow: 1.5px 1.5px 2px black;
+
+        /* Colouring the border */
+        border-width: 1px;
+        border-style: solid;
+        border-color: #960000;
+        border-radius: 10px;
+
+        /* Colouring the background */
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.2) 30%), #ff0000;
+		
+		/* Box Shadows */
+		box-shadow: 5px 5px 10px black,
+					inset 3px 3px 5px rgba(255, 255, 255, 0.6),
+					inset -3px -3px 5px rgba(0, 0, 0, 0.6);
+      }
+	</style>
+    
+  </head>
+  <body>
+      <div>This is a cool box</div>
+  </body>
+</html>
